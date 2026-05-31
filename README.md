@@ -74,8 +74,8 @@ The naive analysis missed that **52% of the total value comes from spillover** �
 ```
 spotify_wrapped/
 ├── spotify_wrapped_analysis.py      # Full analysis (7 sections)
-├── 01_network_interference.png      # Network viz + bias comparison + spillover analysis
-├── 02_cluster_design.png            # Cluster vs user-level randomization design
+├── spotify_wrapped_01_network.png      # Network viz + bias comparison + spillover analysis
+├── spotify_wrapped_02_cluster.png            # Cluster vs user-level randomization design
 └── README.md
 ```
 
@@ -98,8 +98,8 @@ python spotify_wrapped_analysis.py
 
 ## 📈 Visualizations
 
-![Network Interference Analysis](01_network_interference.png)
-![Cluster Randomization Design](02_cluster_design.png)
+![Network Interference Analysis](spotify_wrapped_01_network.png)
+![Cluster Randomization Design](spotify_wrapped_02_cluster.png)
 
 ---
 
